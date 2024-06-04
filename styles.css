@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Cookie&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sofia&display=swap');
+
+:root{
+    --fonte-cursiva: "Cookie", cursive;
+    --fonte-texto: "Raleway", sans-serif;
+    --fonte-extra: "Afacad", sans-serif;
+    --cor-fundo: #e2eafc;
+    --cor-fundo2: #edf2fb;
+    --cor-roxo: #ddbdfc;
+    --cor-azul: #BDE0FE;
+    --cor-salmao: #FFC8DD;
+    --cor-verde: #B7EFEE
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 1.2em;
+    height: 7vh;
+}
+
+.cabecalho-titulo{
+    display: flex;
+    align-items: center;
+    font-family: var(--fonte-cursiva);
+    color: var(--cor-verde);
+    font-size: 1.8em;
+    gap: 0.5em
+}
+
+.cabecalho-nav{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+.cabecalho-link{
+    text-decoration: none;
+    font-family: var(--fonte-extra);
+    font-size: 25px;
+    color: var(--cor-roxo);
+}
+
+.apresentacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0;
+    height: 80vh;
+}
+
+
+
+
+
+
+
+.sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2em;
+    height: 80vh;
+}
+
+
+
+.atendimentos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    height: 80vh;
+
+}
+
+.atendimento-cards{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2em;
+    height: 80vh;
+}
+
