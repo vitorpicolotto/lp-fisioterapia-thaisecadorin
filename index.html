@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./img/icons8-lungs-48.png" width="100px">
     <title>Thaise Cadorin - Fisioterapeuta</title>
 </head>
 <body>
@@ -33,30 +34,30 @@
 
         <section class="sobre" id="sobre">
             <div class="sobre-texto">
-                <h2>Um pouco sobre mim...</h2>
-                    <h3>Sou fisioterapeuta formada pela Universidade do Estado de Santa Catarina (UDESC), Mestra em Fisioterapia e especialização em Terapia Intensiva Neonatal e Pediátrica. </h3>
+                <h2 class="sobre-texto-titulo">Um pouco sobre mim...</h2>
+                    <h3>Sou fisioterapeuta formada pela Universidade do Estado de Santa Catarina (UDESC), Mestra em Fisioterapia e tenho especialização em Terapia Intensiva Neonatal e Pediátrica. </h3>
 
                     <h3>Atualmente, faço parte da equipe de fisioterapia da UTI pediátrica do Imperial Hospital de Caridade e realizo assistência fisioterapêutica a domicílio, com foco em lactentes, crianças e adolescentes com disfunções respiratórias. </h3>
                      
 
                 </div>
-                <div class="sobre-img">
-                    <img src="./img/tha-hospital.jpg" width="400px" alt="imagem thaise">
+                <div >
+                    <img class="sobre-img" src="./img/tha-hospital.jpg" width="400px" alt="imagem thaise">
                 </div>
         </section>
 
         <section class="atendimentos" id="atendimentos">
-            <h2>Meus atendimentos</h2> 
+            <h2 class="atendimentos-titulo">Meus atendimentos</h2> 
             <div class="atendimento-cards">
-                <div>
-                    <h4>Fisioterapia Domiciliar</h4>    
+                <div class="atendimento-card">
+                    <h4><img src="./img/icone-esteto-azul.png" width="35px" height="35px" alt="estetoscopio"> Fisioterapia Domiciliar</h4>    
                     <p>A fisioterapia tem como objetivos a prevenção, promoção e reabilitação em saúde. As técnicas e recursos utilizados dependem da avaliação, da idade e do diagnóstico fisioterapêutico de cada paciente.
                     
                     No ambiente domiciliar, escolhemos o melhor local da casa para realização da sessão.  Em cada atendimento, é realizada uma avaliação fisioterapêutica para que sejam escolhidas as condutas adequadas para cada caso, com base nas necessidades individuais e diárias do indivíduo. </p>   
                 </div>
-                <div>
-                    <!--Dá pra colocar como se fossem cards-->
-                    <h4>Fisioterapia respiratória pediátrica</h4>
+                <div class="atendimento-card">
+
+                    <h4><img src="./img/icone-esteto-azul.png" height="35px" width="35px" height="40px" alt="estetoscopio">Fisioterapia respiratória pediátrica</h4>
                     <p>A fisioterapia respiratória pediátrica é indicada para melhora do sistema respiratório da criança de modo geral. É indicada em casos de disfunções agudas ou crônicas, pós-internações hospitalares, em casos de aumento da presença de secreção em vias aéreas superiores ou inferiores, dificuldade respiratória e/ou entre outras situações. 
 
                     Para cada faixa etária, são escolhidas condutas que condizem com as necessidades de cada criança. Realizo os atendimentos de maneira lúdica, sempre com objetivo da criança achar que está brincando enquanto realizo as técnicas fisioterapêuticas. 
@@ -64,11 +65,20 @@
                     Gosto de reforçar que realizo minhas condutas com base em evidência científica, na busca de entregar o melhor para o paciente e suas famílias. Após cada atendimento realizo orientações e fico a disposição para suporte de dúvidas presencialmente durante os atendimentos, e também antes e após a assistência via WhatsApp.</p>
                 </div>
             </div>
+        </section>
 
-            <section class="atendimentos-slider">
-                <!--Buscar como fazer um slider nos scripts da alura books-->
-                SLIDER
-            </section>
+        <section class="galeria">
+            <h2 class="galeria-titulo">Galeria</h2>
+            <div class="carrossel-container">
+                <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                <div class="slides">
+                    <div class="slide"> <img src="./img/atendimento1.jpg"  alt="Imagem 1"> </div>
+                    <div class="slide"> <img src="./img/atendimento2.jpg"  alt="Imagem 2"> </div>
+                    <div class="slide"> <img src="./img/atendimento3.jpg"  alt="Imagem 3"> </div>
+                    <div class="slide"> <img src="./img/atendimento4.jpg"  alt="Imagem 3"> </div>
+                </div>
+                <button class="next" onclick="moveSlide(1)">&#10095;</button>
+            </div>
         </section>
 
         <section class="contato" id="contato">
@@ -79,6 +89,8 @@
                         <a class="contato-btn" href="https://wa.me/5548996923880?text=Olá!%20Gostaria%20de%20agendar%20um%20atendimento" target="_blank"><img src="./img/iconce-whats-azul.png" width="50px" alt="zap-zap">Whatsapp</a>
                         <a class="contato-btn" href="https://www.instagram.com/fisioothai/" target="_blank"><img src="./img/icone-insta-azul.png" width="50px" alt="instagram">Instagram</a>
                     </div>
+
+                    <p class="contato-lattes">Para saber mais sobre minha formação, acesse meu <a class="contato-lattes-link" href="http://lattes.cnpq.br/6465960688606794" target="_blank">Currículo Lattes</a>.</p>
                     
                 </div>
                 <div >
