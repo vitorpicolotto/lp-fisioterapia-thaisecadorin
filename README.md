@@ -1,10 +1,10 @@
 # Fisioterapeuta - Thaise Cadorin
 
-Bem-vindo a página de apresentação da [Fisioterapeuta - Thaise Cadorin]! Esta é uma landing page simples criada utilizando HTML, CSS e JavaScript.
+Bem-vindo a página de apresentação da Fisioterapeuta Thaise Cadorin! Esta é uma landing page simples criada utilizando HTML, CSS e JavaScript.
 
 ## Descrição
 
-É uma página de destino projetada para [promover o trabalho de uma profissional da saúde, apresentar seus atendimentos e os contatos para futuros pacientes]. 
+É uma página de destino projetada para promover o trabalho de uma profissional da saúde, apresentar seus atendimentos e os contatos para futuros pacientes. 
 
 ## Tecnologias Utilizadas
 
