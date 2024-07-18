@@ -307,7 +307,181 @@
     font-family: var(--fonte-texto);
 }
 
-@media (max-width: 768px) {
+@media (max-width:569px){
+    body{
+        max-width: 100%;
+    }
+
+    .cabecalho-titulo{
+        font-size:15px ;
+    }
+
+    .cabecalho img{
+        width: 30%;
+    }
+
+    .cabecalho-nav{
+        gap:8px
+    }
+
+    .cabecalho-link {
+        font-size: 15px;
+    }
+
+    .apresentacao {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        padding: 1em 1em;
+        gap: 1.2em
+    }
+
+    .apresentacao-img{
+        width: 60%;
+    }
+
+    .apresentacao-texto{
+        font-size: 15px;
+    }
+    
+    .apresentacao-texto h2 {
+        font-size: 20px;
+    }
+    .sobre {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        padding: 2em 1.2em;
+        gap: 1.2em
+    }
+
+    .sobre-texto {
+        padding-right: 0;
+        font-size: 0.8em;
+    }
+
+    .sobre-img{
+        width: 60%;
+    }
+
+    .sobre-texto-titulo{
+        font-size: 3em;
+    }
+
+    .atendimentos {
+        height: auto;
+        padding: 2em 1em;
+    }
+
+    .atendimentos-titulo {
+        font-size: 3em;
+    }
+
+    .atendimento-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+        width: 200%;
+    }
+
+    .atendimento-card h4 {
+        font-size: 1.1em;
+    }
+
+    .atendimento-card p{
+        font-size: 0.9em;
+    }
+
+    .galeria {
+        height: auto;
+        padding: 2em 1em 0;
+    }
+
+    .galeria-titulo {
+        font-size: 3em;
+        padding: 0 0;
+    }
+
+    .carrossel-container{
+        position: relative;
+        max-width: 100%;
+        border: none;
+    }
+
+    .slide img {
+        width: 74%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .prev, .next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: transparent;
+        color: black;
+        border: dashed 2px;
+        padding: 1em;
+        margin: 0 1em;
+        z-index: 10;
+    }
+
+    .contato {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        padding: 1em 1em;
+    }
+
+    .contato-texto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-left: 30%;
+        font-size: 1em;
+    }
+
+    .contato-btn-geral{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contato-btn{
+        height: 7vh;
+    }
+
+    .contato-lattes{
+        font-size: 0.8em;
+    }
+
+    .contato-img{
+        margin-top: 5%;
+        width: 60%;
+    }
+    .rodape-nome {
+        font-size: 1.2em;
+    }
+
+    .rodape-crefito {
+        font-size: 1em;
+    }
+}
+
+
+
+
+@media (min-width:570px) and (max-width: 790px) {
+    body{
+        max-width: 100%;
+    }
+
     .cabecalho-titulo {
         font-size: 1.3em;
     }
