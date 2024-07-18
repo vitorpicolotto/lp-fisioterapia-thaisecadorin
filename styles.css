@@ -307,3 +307,138 @@
     font-family: var(--fonte-texto);
 }
 
+@media (max-width: 768px) {
+    .cabecalho-titulo {
+        font-size: 1.3em;
+    }
+
+    .cabecalho-link {
+        font-size: 20px;
+    }
+
+    .apresentacao {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        padding: 1em 1em;
+        gap: 1.2em
+    }
+
+    .apresentacao-img{
+        width: 50%;
+    }
+
+    .apresentacao-texto h2 {
+        font-size: 2.0em;
+    }
+
+    .sobre {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        padding: 2em 1em;
+        gap: 1.2em
+    }
+
+    .sobre-texto {
+        padding-right: 0;
+        font-size: 1em;
+    }
+
+    .sobre-img{
+        width: 50%;
+    }
+
+    .sobre-texto h2 {
+        font-size: 2.5em;
+    }
+
+    .atendimentos {
+        height: auto;
+        padding: 2em 1em;
+    }
+
+    .atendimentos-titulo {
+        font-size: 3em;
+    }
+
+    .atendimento-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+        width: 150%;
+    }
+
+    .atendimento-card h4 {
+        font-size: 1.1em;
+    }
+
+    .atendimento-card p{
+        font-size: 1em;
+    }
+
+    .galeria {
+        height: auto;
+        padding: 2em 1em;
+    }
+
+    .galeria-titulo {
+        font-size: 3em;
+    }
+
+    .carrossel-container{
+       position: relative;
+        max-width: 80%;
+        border: none;
+    }
+
+    .slide img {
+        max-width: 80%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .contato {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        padding: 1em 1em;
+    }
+
+    .contato-texto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-left: 30%;
+        font-size: 1.5em;
+    }
+
+    .contato-btn-geral{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contato-lattes{
+        font-size: 0.8em;
+    }
+
+    .contato-img{
+        margin-top: 5%;
+        width: 50%;
+    }
+    .rodape-nome {
+        font-size: 1.2em;
+    }
+
+    .rodape-crefito {
+        font-size: 1em;
+    }
+}
